@@ -2,16 +2,22 @@
 <html>
     <head>
         <link href="Styles/main.css" rel="stylesheet"/>
+        <script src="events.js"></script>
         <title>My Website</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
 
     <body>
         <header>
+            
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -19,7 +25,7 @@
         </header>
 
         <section class="features">
-            <div>
+            <div class="animate__animated animate__backInLeft">
                 <h3>SCalculator</h3>
                 <h5>
                     <p>
@@ -32,11 +38,11 @@
                         it won't give you the absolute original and new looking design as this calculator would. Download and try yourself :)
                     </p>
                 </h5>
-                <button>Download</button>
+                <button onclick="calculatorDownload()">Download</button>
                 <button>Find out more</button>
             </div>
             <figure>
-                <img src="Styles/images/calculatorLogo.png" alt="Calculator Logo">
+                <img class="animate__animated animate__backInRight" src="Styles/images/calculatorLogo.png" alt="Calculator Logo">
             </figure>
 
         </section>
