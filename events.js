@@ -1,3 +1,3 @@
 function calculatorDownload(){
-    window.open('calculatorDownload.html');
+    window.open('calculatorBuy.html');
 }

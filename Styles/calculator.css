@@ -49,6 +49,7 @@ section{
     background:white;
     padding: 20px;
     display:flex;
+    height: 1000px;
 }
 
 section div{
@@ -56,8 +57,7 @@ section div{
     font-size:25px;
 }
 
-section div button{
-    transition: all 0.5s ease;
+section div button.calculation{
     width:150px;
     height:50px;
     background-image:url("images/logo2.png");
@@ -67,15 +67,12 @@ section div button{
     font-size:20px;
 }
 
-section div button:hover{
-    transition: all 0.5s ease;
-    width:155px;
-    height:55px;
-    background-image:url("images/logo2.png");
-    background-size:500px;
-    color:white;
-    border-radius: 8px;
-    font-size:20px;
+.buttonHolder{
+    width:35%;
+    height:50px;
+    position:relative;
+    top:200px;
+    left:600px;
 }
 
 div.productBasicInfo{
